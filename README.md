@@ -24,10 +24,6 @@ Follow the instructions of the [Installation guide | official](https://www.tug.o
 
 The installation then takes some time. Just wait.
 
-### VS-Code extension
-
-Use `James-Yu.latex-workshop` extension available [here](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop). Follow the [documentation](https://github.com/James-Yu/LaTeX-Workshop/wiki).
-
 ```shell
 (base)  ❮ onyr ★  kenzae❯ ❮ install-tl-20220110❯❯ sudo perl install-tl 
 ======================> TeX Live installation procedure <=====================
@@ -98,7 +94,6 @@ Add /usr/local/texlive/2021/texmf-dist/doc/info to INFOPATH.
 Most importantly, add /usr/local/texlive/2021/bin/x86_64-linux
 to your PATH for current and future sessions.
 Logfile: /usr/local/texlive/2021/install-tl.log
-
 ```
 
 Then, add necessary paths as environment variables in `.bashrc`:
@@ -123,12 +118,11 @@ And check everything is good:
     ╚════╝    ██║   ██║██║╚██╗██║  ╚██╔╝  ██╔══██╗    ╚════╝
               ╚██████╔╝██║ ╚████║   ██║   ██║  ██║  
                ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝  
-                                                  
+                                          
  to loom up  =  surgir, apparaître (négatif) [375] 
 
 (base)  ❮ onyr ★  kenzae❯ ❮ install-tl-20220110❯❯ echo $INFOPATH
 :/usr/local/texlive/2021/texmf-dist/doc/info
-
 ```
 
 ### VS-Code extension
