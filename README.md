@@ -16,7 +16,6 @@ Enzo - Serenz#4586 (discord) – Ser Enz (Facebook :
 Benoit Saunier – Benoit Saunier  (Faceboobs :
 https://www.facebook.com/benoit.sau)
 
-
 ## Installing necessary software
 
 ### TexLive
@@ -24,7 +23,6 @@ https://www.facebook.com/benoit.sau)
 Follow the instructions of the [Installation guide | official](https://www.tug.org/texlive/acquire-netinstall.html). Get the tar.gz file, extract it, then run the provided install script by running `sudo perl install-tl`. This will launch the default cli installer but the is also a graphical one.
 
 The installation then takes some time. Just wait.
-
 
 ### VS-Code extension
 
