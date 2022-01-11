@@ -1,0 +1,136 @@
+\documentclass[a4paper, 12pt, oneside]{article}
+
+% document formatting
+\usepackage[margin=0.75in]{geometry}
+
+% Here we put the packages to use
+\usepackage[english]{babel}
+\usepackage{graphics}
+\usepackage{comment}
+
+% define personal colors
+\usepackage{xcolor}
+\definecolor{commentsColor}{rgb}{0.497495, 0.497587, 0.497464}
+\definecolor{keywordsColor}{rgb}{0.000000, 0.000000, 0.635294}
+\definecolor{stringColor}{rgb}{0.558215, 0.000000, 0.135316}
+
+% Code formatting packages
+\usepackage{listings}
+\lstset{
+    backgroundcolor=\color{white},   % choose the background color; you must add \usepackage{color} or \usepackage{xcolor}
+    basicstyle=\footnotesize,        % the size of the fonts that are used for the code
+    breakatwhitespace=false,         % sets if automatic breaks should only happen at whitespace
+    breaklines=true,                 % sets automatic line breaking
+    captionpos=b,                    % sets the caption-position to bottom
+    commentstyle=\color{commentsColor}\textit,    % comment style
+    deletekeywords={...},            % if you want to delete keywords from the given language
+    escapeinside={\%*}{*)},          % if you want to add LaTeX within your code
+    extendedchars=true,              % lets you use non-ASCII characters; for 8-bits encodings only, does not work with UTF-8
+    frame=tb,	                   	   % adds a frame around the code
+    keepspaces=true,                 % keeps spaces in text, useful for keeping indentation of code (possibly needs columns=flexible)
+    keywordstyle=\color{keywordsColor}\bfseries,       % keyword style
+    language=Python,                 % the language of the code (can be overrided per snippet)
+    otherkeywords={*,...},           % if you want to add more keywords to the set
+    numbers=left,                    % where to put the line-numbers; possible values are (none, left, right)
+    numbersep=5pt,                   % how far the line-numbers are from the code
+    numberstyle=\tiny\color{commentsColor}, % the style that is used for the line-numbers
+    rulecolor=\color{black},         % if not set, the frame-color may be changed on line-breaks within not-black text (e.g. comments (green here))
+    showspaces=false,                % show spaces everywhere adding particular underscores; it overrides 'showstringspaces'
+    showstringspaces=false,          % underline spaces within strings only
+    showtabs=false,                  % show tabs within strings adding particular underscores
+    stepnumber=1,                    % the step between two line-numbers. If it's 1, each line will be numbered
+    stringstyle=\color{stringColor}, % string literal style
+    tabsize=2,	                     % sets default tabsize to 2 spaces
+    title=\lstname,                  % show the filename of files included with \lstinputlisting; also try caption instead of title
+    columns=fixed                    % Using fixed column width (for e.g. nice alignment)
+}
+
+% link formatting
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=orange,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+
+
+
+
+\title{First \LaTeX\ Document }
+\author{Florian Rascoussier}
+\date{April 19, 2021}
+
+\begin{document}
+    \maketitle
+
+    \section{Introduction}
+    \LaTeX\ is a very powerful tool to create documents or scientific
+    papers. A good introduction tutorial can be found 
+    \href{https://www.overleaf.com/learn/latex/Main_Page}{here | Overleaf doc}
+
+    \section{Once upon a time}
+    Once upon a time, there were an Hello World...
+
+\begin{comment}
+    This is a multiline comment 
+    Useful to, for instance, comment out 
+    slow-rendering parts
+    while working on a draft.
+\end{comment}
+
+    \section{Marvels incoming}
+    Hello World...
+
+    \section{Code time}
+    Here is some typical Python code.
+
+    \begin{lstlisting}[language=Python, caption=Python example, frame=single]
+    # Program to display the Fibonacci sequence up to n-th term
+
+    nterms = int(input("How many terms? "))
+
+    # first two terms
+    n1, n2 = 0, 1
+    count = 0
+
+    # check if the number of terms is valid
+    if nterms <= 0:
+    print("Please enter a positive integer")
+    elif nterms == 1:
+    print("Fibonacci sequence upto",nterms,":")
+    print(n1)
+    else:
+    print("Fibonacci sequence:")
+    while count < nterms:
+        print(n1)
+        nth = n1 + n2
+        # update values
+        n1 = n2
+        n2 = nth
+        count += 1
+    \end{lstlisting}
+    
+    \begin{lstlisting}[language=bash, caption=Python example output, frame=single]
+    (base) onyr@aezyr:~/Documents/code/python/python_intro$ python3 fibonacci_sequence.py 
+    How many terms? 10
+    Fibonacci sequence:
+    0
+    1
+    1
+    2
+    3
+    5
+    8
+    13
+    21
+    34
+    \end{lstlisting}
+
+    And here is some from a file 
+
+    \lstinputlisting[language=C, caption=Python example output, frame=single]{src_code/check_leap_year.c}
+
+\end{document}
+
