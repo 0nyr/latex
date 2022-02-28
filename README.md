@@ -126,7 +126,7 @@ And check everything is good:
     ╚════╝    ██║   ██║██║╚██╗██║  ╚██╔╝  ██╔══██╗    ╚════╝
               ╚██████╔╝██║ ╚████║   ██║   ██║  ██║  
                ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝  
-                                        
+                                      
  to loom up  =  surgir, apparaître (négatif) [375] 
 
 (base)  ❮ onyr ★  kenzae❯ ❮ install-tl-20220110❯❯ echo $INFOPATH
@@ -136,3 +136,9 @@ And check everything is good:
 ### VS-Code extension
 
 Use `James-Yu.latex-workshop` extension available [here](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop). Follow the [documentation](https://github.com/James-Yu/LaTeX-Workshop/wiki). This extension enables to compile on save and display the document at the same time as the .tex code.
+
+#### commands
+
+`ctrl+alt+B`: build 
+
+`ctrl+alt+C`: clean (delete build files)
