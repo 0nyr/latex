@@ -12,7 +12,7 @@ build_bib:
 	biber main
 
 clean:
-	rm *.bbl *.aux *.blg *.bcf *.blg *.log *.xml *.fls *.gz *.fdb_latexmk
+	rm *.bbl *.aux *.blg *.bcf *.blg *.log *.xml *.fls *.gz *.fdb_latexmk *.out *.toc
 
 # Determine this makefile's path.
 # Be sure to place this BEFORE `include` directives, if any.
