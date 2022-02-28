@@ -52,6 +52,8 @@ INFO - Output to main.bbl
 
 #### Package babel Error: Unknown option `french'.
 
+See [StackOverflow](https://tex.stackexchange.com/questions/139700/package-babel-error-unknown-option-francais).
+
 Error with `babel` package for `french`.
 
 ```shell
