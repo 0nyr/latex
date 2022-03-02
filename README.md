@@ -126,7 +126,7 @@ And check everything is good:
     ╚════╝    ██║   ██║██║╚██╗██║  ╚██╔╝  ██╔══██╗    ╚════╝
               ╚██████╔╝██║ ╚████║   ██║   ██║  ██║  
                ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝  
-                                      
+                                    
  to loom up  =  surgir, apparaître (négatif) [375] 
 
 (base)  ❮ onyr ★  kenzae❯ ❮ install-tl-20220110❯❯ echo $INFOPATH
@@ -139,6 +139,10 @@ Use `James-Yu.latex-workshop` extension available [here](https://marketplace.vis
 
 #### commands
 
-`ctrl+alt+B`: build 
+`ctrl+alt+B`: build
 
 `ctrl+alt+C`: clean (delete build files)
+
+#### params
+
+`latex-workshop.intellisense.citation.backend`: Update this to change default backend to use for citation intellisense. Change to `biblatex`.

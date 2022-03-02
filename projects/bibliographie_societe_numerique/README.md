@@ -2,6 +2,10 @@
 
 ### Useful links
 
+##### tools
+
+[bibliography generator | bibguru](https://app.bibguru.com/p/) 🌟
+
 ##### biblatex
 
 [getting started with biblatex](https://www.overleaf.com/learn/latex/Articles/Getting_started_with_BibLaTeX)
@@ -46,7 +50,6 @@ INFO - No sort tailoring available for locale 'nil'
 INFO - Writing 'main.bbl' with encoding 'UTF-8'
 INFO - Output to main.bbl
 ```
-
 
 ## Errors
 
