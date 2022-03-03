@@ -4,9 +4,21 @@
 
 [Overleaf](https://www.overleaf.com/)
 
+##### latex templates
+
+[collection of latex templates | GitHub](https://github.com/deedy/Latex-Templates)
+
+
 ### Tuto links
 
+##### latex
+
 [http://math.univ-lyon1.fr/irem/IMG/pdf/LatexPourLeProfDeMaths.pdf](http://math.univ-lyon1.fr/irem/IMG/pdf/LatexPourLeProfDeMaths.pdf) - Full writen tutorial (french)
+
+##### general
+
+[How to write a technical report](https://blog.bit.ai/technical-report/) ⭐️
+
 
 ### Bibliography
 
@@ -14,7 +26,20 @@
 
 [IEEE citation style](https://paperpile.com/s/proceedings-of-the-ieee-citation-style/)
 
-[bibguru | automatic Bibliography generator (use IEEE)](https://app.bibguru.com/)
+[bibguru | automatic Bibliography generator (use IEEE)](https://app.bibguru.com/) ⭐️
+
+### Glossary and acronyms
+
+[how to deal with glossary and acronyms in a report](https://www.discoverphds.com/blog/list-of-abbreviations-thesis)
+
+[Glossaries | Overleaf](https://www.overleaf.com/learn/latex/Glossaries)
+
+[how to generate list of abbreviations in LaTeX | StackOverflow](https://tex.stackexchange.com/questions/492175/how-to-generate-list-of-abbreviations-in-latex)
+
+[Glossaries in LaTeX](https://www.resurchify.com/latex_tutorial/latex_glossaries.php) ⭐️
+
+[List of glossaries not displaying](https://tex.stackexchange.com/questions/192378/list-of-glossaries-not-displaying)
+
 
 ### Contacts
 
@@ -126,7 +151,7 @@ And check everything is good:
     ╚════╝    ██║   ██║██║╚██╗██║  ╚██╔╝  ██╔══██╗    ╚════╝
               ╚██████╔╝██║ ╚████║   ██║   ██║  ██║  
                ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝  
-                                    
+                                  
  to loom up  =  surgir, apparaître (négatif) [375] 
 
 (base)  ❮ onyr ★  kenzae❯ ❮ install-tl-20220110❯❯ echo $INFOPATH
