@@ -2,14 +2,15 @@
 
 ### Useful links
 
+##### tools
+
+[bibliography manager | bibguru](https://github.com/0nyr/compare-consensus-protocols) ⭐️
+
 ##### guides
 
 [how to make Glossaries/Acronyms in LaTeX](https://www.resurchify.com/latex_tutorial/latex_glossaries.php)
 
 [Glossaries / Acronyms | Overleaf](https://www.overleaf.com/learn/latex/Glossaries)
-
-
-
 
 ## Problems
 
