@@ -1,0 +1,29 @@
+\documentclass[12pt]{article} % text width
+\usepackage[utf8]{inputenc} % encode text to utf8
+\usepackage[T1]{fontenc} % use T1 font encoding for french
+
+% paragraph formatting: https://www.overleaf.com/learn/latex/Paragraph_formatting
+\setlength{\parindent}{1em}
+\setlength{\parskip}{1em}
+
+
+\usepackage[greek, frenchb]
+{babel} % text correction
+\newcommand*{\textingreek}[1]{%
+	\foreignlanguage{greek}{#1}%
+} % new command for greek text
+\newcommand*{\tig}[1]{\textingreek{#1}} %
+
+\title{Exemple de texte avec du texte en grec}
+\author{Florian Rascoussier}
+\date{March 2022}
+
+\begin{document}
+
+\maketitle
+
+\section{Programmation et code}
+La programmation est un terme générique. Composé du suffixe \textit{-ation}, du latin \textit{-atio}, utilisé pour signifier un action, et du nom \textit{programme} lui-même issue via le latin \textit{programma} du grec ancien \textgreek{pr'ogramma}.
+qui peut désigner divers concepts selon le domaine, par exemple le terme \textit{programmation} désigne, dans le milieu du cinéma, l'action de déterminer les programmes ou films d'une salle donnée.
+
+\end{document}
