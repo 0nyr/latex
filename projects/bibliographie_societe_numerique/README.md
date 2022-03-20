@@ -16,6 +16,8 @@
 
 [Typesetting quotations (epigraph, quotations...)](https://www.overleaf.com/learn/latex/Typesetting_quotations)
 
+[Biblatex full doc](http://linorg.usp.br/CTAN/macros/latex/contrib/biblatex/doc/biblatex.pdf) ⭐️
+
 ## Using biblatex
 
 We use `biblatex`, a more powerful tool than the default `bibtex` for bibliography.
