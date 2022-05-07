@@ -169,7 +169,7 @@ And check everything is good:
     ╚════╝    ██║   ██║██║╚██╗██║  ╚██╔╝  ██╔══██╗    ╚════╝
               ╚██████╔╝██║ ╚████║   ██║   ██║  ██║  
                ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝  
-                                    
+                                  
  to loom up  =  surgir, apparaître (négatif) [375] 
 
 (base)  ❮ onyr ★  kenzae❯ ❮ install-tl-20220110❯❯ echo $INFOPATH
@@ -269,7 +269,7 @@ Use `James-Yu.latex-workshop` extension available [here](https://marketplace.vis
 
 ### settings
 
-The compilation process of LaTeX creates a lot of useless files. Hence I prefer to remove them automatically.
+The compilation process of LaTeX creates a lot of useless files. Hence I prefer to remove them automatically (not always recommender, especially for complex projects as it is then sometimes madatory to recompile the whole project using a bunch of build commands that significantly increase build time).
 
 ### commands
 
@@ -280,3 +280,9 @@ The compilation process of LaTeX creates a lot of useless files. Hence I prefer 
 `Ctrl + Alt + B` : Build LaTeX project
 
 `Ctrl + alt + C` : Clean up auxiliary files
+
+#### vscode Keyboard shortcuts
+
+> Shortcut cheatsheet [here](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf).
+
+`Alt + Z`: Toggle word wrap
