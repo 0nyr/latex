@@ -67,6 +67,32 @@ configuration options.
 
 ## Installing necessary software
 
+### Latexmk
+
+> Latexmk is a perl script for running LaTeX the correct number of times
+> to resolve cross references, etc.; it also runs auxiliary programs
+> (bibtex, makeindex if necessary, and dvips and/or a previewer as
+> requested). It has a number of other useful capabilities, for example to
+> start a previewer and then run latex whenever the source files are
+> updated, so that the previewer gives an up-to-date view of the document.
+> The script runs on both UNIX and MS-WINDOWS (95, ME, XP, etc). This
+> script is a corrected and improved version of the original version of
+> latexmk. Before using a previewer, read the file README.fedora. [source](https://installati.one/fedora/34/latexmk/)
+
+Follow good guide [Here | Fedora](https://installati.one/fedora/34/latexmk/)
+
+1. Update yum database with `dnf` using the following command.
+
+```bash
+sudo dnf makecache --refresh
+```
+
+2. After updating yum database, We can install `latexmk` using `dnf` by running the following command:
+
+```bash
+sudo dnf -y install latexmk
+```
+
 ### TexLive
 
 ##### official installation process
@@ -169,7 +195,7 @@ And check everything is good:
     ╚════╝    ██║   ██║██║╚██╗██║  ╚██╔╝  ██╔══██╗    ╚════╝
               ╚██████╔╝██║ ╚████║   ██║   ██║  ██║  
                ╚═════╝ ╚═╝  ╚═══╝   ╚═╝   ╚═╝  ╚═╝  
-                                  
+                                
  to loom up  =  surgir, apparaître (négatif) [375] 
 
 (base)  ❮ onyr ★  kenzae❯ ❮ install-tl-20220110❯❯ echo $INFOPATH
